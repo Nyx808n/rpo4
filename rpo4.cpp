@@ -19,7 +19,7 @@ void FillArray(int *arr, int size) {
         std::cout << *(arr + i) << " ";
     }
     
-}
+} 
 
 void PushArray(int *&arr, int size) {
     int* temp = new int[size];
